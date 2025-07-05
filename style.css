@@ -421,3 +421,22 @@ nav .container {
         transform: translateX(50px)
     }
 }
+
+
+/* responsive */
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+    .contact-links {
+        flex-direction: column;
+        align-items: center;
+    }
+}
