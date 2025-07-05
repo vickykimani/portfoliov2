@@ -1,4 +1,4 @@
-//smooth scrolling
+// smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -10,13 +10,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-//scroll progress indicatior
+// scroll progress indicatior
 window.addEventListener('scroll', () => {
     const scrolled = (window.pageYOffset / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
     document.querySelector('.scroll-indicator').getElementsByClassName.transform = `scaleX(${scrolled / 100})`;
 });
 
-//add scroll effect to navigation
+// add scroll effect to navigation
 window.addEventListener('scroll', () => {
     const nav = document.querySelector('nav');
     if (window.scrollY > 100) {
@@ -42,3 +42,11 @@ const observer = new IntersectionObserver((entries) => {
         }
     });
 }, observerOptions);
+
+// observe project cards for animation
+document.querySelectorAll('project-card').forEach(card => {
+    card.style.opacity = '0';
+    card.style.transform = 'translateY(30px)';
+    card.style.transition = 'all 0.6s ease';
+    observer.observe(card);
+});
