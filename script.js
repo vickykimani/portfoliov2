@@ -9,3 +9,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+//scroll progress indicatior
+window.addEventListener('scroll', () => {
+    const scrolled = (window.pageYOffset / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+    document.querySelector('.scroll-indicator').getElementsByClassName.transform = `scaleX(${scrolled / 100})`;
+});
