@@ -346,3 +346,55 @@ nav .container {
     backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.6);
 }
+
+
+/* contact section */
+
+.contact {
+    padding: 5rem 0;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    color: #2d3748;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    letter-spacing: -0.025em;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+    line-height: 1.7;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.contact-link {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.7);
+    color: #2d3748;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 500;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-link:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
