@@ -4,7 +4,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         target.scrollIntoView({
-            behaviour: 'smooth',
+            behavior: 'smooth',
             block: 'start'
         });
     });
@@ -13,7 +13,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // scroll progress indicatior
 window.addEventListener('scroll', () => {
     const scrolled = (window.pageYOffset / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
-    document.querySelector('.scroll-indicator').getElementsByClassName.transform = `scaleX(${scrolled / 100})`;
+    document.querySelector('.scroll-indicator').style.transform = `scaleX(${scrolled / 100})`;
 });
 
 // add scroll effect to navigation
@@ -44,7 +44,7 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 // observe project cards for animation
-document.querySelectorAll('project-card').forEach(card => {
+document.querySelectorAll('.project-card').forEach(card => {
     card.style.opacity = '0';
     card.style.transform = 'translateY(30px)';
     card.style.transition = 'all 0.6s ease';
