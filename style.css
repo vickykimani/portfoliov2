@@ -423,7 +423,48 @@ nav .container {
 }
 
 
-/* responsive */
+/* responsive breakpoints */
+
+
+/* large desktop (1440px and above) */
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1600px;
+        padding: 0 3rem;
+    }
+    .hero h1 {
+        font-size: 4.5rem;
+    }
+    .hero p {
+        font-size: 1.25rem;
+        max-width: 700px;
+    }
+    .about-grid {
+        gap: 6rem;
+    }
+    .about-text h2 {
+        font-size: 3rem;
+    }
+    .about-text p {
+        font-size: 1.2rem;
+    }
+    .about-visual {
+        height: 500px;
+    }
+    .projects h2 {
+        font-size: 3rem;
+    }
+    .project-grid {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+    .contact h2 {
+        font-size: 3rem;
+    }
+    .contact p {
+        font-size: 1.25rem;
+    }
+}
 
 @media (max-width: 768px) {
     .nav-links {
