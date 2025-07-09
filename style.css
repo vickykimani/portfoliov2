@@ -471,8 +471,8 @@ nav .container {
 
 @media (min-width: 1024px) and (max-width: 1439px) {
     .container {
-        max-width: 1200px;
-        padding: 0 2rem;
+        max-width: 1400px;
+        padding: 0 1.5rem;
     }
     .hero h1 {
         font-size: 3.5rem;
