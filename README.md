@@ -61,7 +61,7 @@ For questions or collaboration opportunities, please reach out via:
 - Portfolio: [Portfolio Link](#)
 
 <div align="center">
- <sup>&copy; Vicky Kimani. All Rights Reserved.</sup> <br>
+ <sup>&copy; 2025 Vicky Kimani. All Rights Reserved.</sup> <br>
 
   <sup>This portfolio and its contents are proprietary. Unauthorized copying, distribution, or use of this design, code, or content is prohibited.</sup> <br>
 
