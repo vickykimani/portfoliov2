@@ -17,13 +17,12 @@ A clean, minimalist portfolio website showcasing UI/UX design projects and proto
 ### Project Structure
 ```
 portfoliov2/
-├── index.html          # Main portfolio page
-├── css/
-│   └── style.css       # Main stylesheet
-├── js/
-│   └── script.js       # Interactive functionality
-├── img/               # Project images and assets
-└── README.md          # This file
+├── index.html          # main portfolio page
+├── style.css           # main stylesheet
+├── script.js           # interactive functionality
+├── img/                # project images 
+├── assets/             # project files
+└── README.md           # this file
 ```
 ## Key Features
 ### Interactive Project Cards
