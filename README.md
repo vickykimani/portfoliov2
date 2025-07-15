@@ -59,7 +59,9 @@ For questions or collaboration opportunities, please reach out via:
 - Email: [victorianightingale70@gmail.com](mailto:victorianightingale70@gmail.com)
 - LinkedIn: [Vicky Kimani](https://www.linkedin.com/in/vicky-kimani-171202207/)
 - Portfolio: [Portfolio Link](#)
-
+<br>
+<br>
+<br>
 <div align="center">
  <sup>&copy; 2025 Vicky Kimani. All Rights Reserved.</sup> <br>
 
