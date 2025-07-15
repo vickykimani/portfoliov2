@@ -54,11 +54,21 @@ Featured projects include:
 - CSS animations for smooth interactions
 - No external dependencies
 
-## Usage Rights
-This portfolio is for demonstration purposes only. The design, content, and code are proprietary. Please do not copy or redistribute without permission.
-
 ## Contact
 For questions or collaboration opportunities, please reach out via:
 - Email: [victorianightingale70@gmail.com](mailto:victorianightingale70@gmail.com)
 - LinkedIn: [Vicky Kimani](https://www.linkedin.com/in/vicky-kimani-171202207/)
 - Portfolio: [Portfolio Link](#)
+
+<div align="center">
+ <sup>&copy; Vicky Kimani. All Rights Reserved.</sup> <br>
+
+  <sup>This portfolio and its contents are proprietary. Unauthorized copying, distribution, or use of this design, code, or content is prohibited.</sup> <br>
+
+  <sup>*built with attention to detail and user experience in mind.*</sup>
+</div>
+
+
+
+
+
