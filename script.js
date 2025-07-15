@@ -10,7 +10,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// scroll progress indicatior
+// scroll progress indicator
 window.addEventListener('scroll', () => {
     const scrolled = (window.pageYOffset / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
     document.querySelector('.scroll-indicator').style.transform = `scaleX(${scrolled / 100})`;
@@ -49,4 +49,48 @@ document.querySelectorAll('.project-card').forEach(card => {
     card.style.transform = 'translateY(30px)';
     card.style.transition = 'all 0.6s ease';
     observer.observe(card);
+});
+
+//cursor stuff
+const tooltip = document.createElement('div');
+tooltip.className = 'custom-tooltip';
+tooltip.textContent = '<click to interact with prototype>';
+document.body.appendChild(tooltip);
+
+document.querySelectorAll('.project-card').forEach(card => {
+    let isHovering = false;
+
+    card.addEventListener('mouseenter', () => {
+        isHovering = true;
+        tooltip.classList.add('show');
+        card.style.cursor = 'pointer';
+    });
+
+    card.addEventListener('mouseleave', () => {
+        isHovering = false;
+        tooltip.classList.remove('show');
+        card.style.cursor = 'default';
+    });
+
+    card.addEventListener('mousemove', (e) => {
+        if (isHovering) {
+            //use requestAnimationFrame for smooth movement
+            requestAnimationFrame(() => {
+                const tooltipWidth = 200;
+                const leftPos = Math.min(e.clientX, window.innerWidth - tooltipWidth);
+
+                tooltip.style.left = leftPos + 'px';
+                tooltip.style.top = (e.clientY - 60) + 'px';
+            });
+        }
+    });
+
+    card.addEventListener('click', () => {
+        const figmaUrl = card.dataset.figmaUrl;
+        if (figmaUrl) {
+            window.open(figmaUrl, '_blank');
+        } else {
+            alert('Prototype coming soon!')
+        }
+    });
 });
