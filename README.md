@@ -1,1 +1,65 @@
-readme will be here!
+# Portfolio
+A clean, minimalist portfolio website showcasing UI/UX design projects and prototypes.
+
+## Features
+- **Responsive Design** - Optimized for desktop, tablet, and mobile devices
+- **Interactive Prototypes** - Click/tap to view live Figma prototypes
+- **Touch-Friendly** - Bookmark-style interaction hints for mobile users
+- **Clean Design** - Minimalist design focusing on showcasing work
+- **Project Filtering** - Easy navigation through different project types
+
+## Technologies Used
+- HTML5
+- CSS3 (Flexbox, Grid, Media Queries)
+- Vanilla JavaScript
+- Figma (for prototypes)
+
+### Project Structure
+```
+portfoliov2/
+├── index.html          # Main portfolio page
+├── css/
+│   └── style.css       # Main stylesheet
+├── js/
+│   └── script.js       # Interactive functionality
+├── img/               # Project images and assets
+└── README.md          # This file
+```
+## Key Features
+### Interactive Project Cards
+- Hover effects on desktop reveal "click to interact with prototype" message
+- Touch devices show bookmark-style "tap to interact" badges
+- Direct links to live Figma prototypes
+
+### Responsive Interaction Design
+- Desktop: Hover states with cursor hints
+- Mobile: Always-visible bookmark badges
+- Seamless experience across all devices
+
+### Project Showcase
+Featured projects include:
+- Project description and context
+- Key skills and methodologies used
+- Interactive prototype access
+- Team collaboration indicators where applicable
+
+## Browser Support
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## Performance
+- Optimized images for web
+- Minimal JavaScript footprint
+- CSS animations for smooth interactions
+- No external dependencies
+
+## Usage Rights
+This portfolio is for demonstration purposes only. The design, content, and code are proprietary. Please do not copy or redistribute without permission.
+
+## Contact
+For questions or collaboration opportunities, please reach out via:
+- Email: [victorianightingale70@gmail.com](mailto:victorianightingale70@gmail.com)
+- LinkedIn: [Vicky Kimani](https://www.linkedin.com/in/vicky-kimani-171202207/)
+- Portfolio: [Portfolio Link](#)
