@@ -58,7 +58,7 @@ Featured projects include:
 For questions or collaboration opportunities, please reach out via:
 - Email: [victorianightingale70@gmail.com](mailto:victorianightingale70@gmail.com)
 - LinkedIn: [Vicky Kimani](https://www.linkedin.com/in/vicky-kimani-171202207/)
-- Portfolio: [Portfolio Link](#)
+- Portfolio: [Portfolio Link](https://studentweb.cdm.depaul.edu/vkimani/)
 <br>
 <br>
 <div align="center">
