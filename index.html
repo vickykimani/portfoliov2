@@ -20,20 +20,30 @@
     <nav>
         <div class="container">
             <div class="logo">Vicky Kimani</div>
+
+            <!-- hamburger icon -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#case-study">Case Study</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
+    <!-- <div class="menu-overlay" id="menuOverlay"></div> -->
+
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>UX Designer & HCI Researcher</h1>
+            <h1>UX Designer</h1>
             <p>I create meaningful digital experiences through user-centered design and intuitive interfaces. I am currently pursuing my Master's in Human-Computer Interaction at DePaul University.</p>
-            <a href="#projects" class="cta-button">View My Work</a>
+            <a href="#case-study" class="cta-button">View My Work</a>
         </div>
     </section>
 
@@ -43,9 +53,9 @@
                 <div class="about-grid">
                     <div class="about-text">
                         <h2>About Me</h2>
-                        <p>I am a graduate student who is passionate about bridging the gap between human needs and technology. I have a background in Computer Science and my current focus is in Human-Computer Interaction. I bring both technical expertise
-                            and user empathy to every project.</p>
-                        <p>My approach combines rigourous user research, iterative design thinking, and technical implementation skills to create products that truly serve their users.</p>
+                        <p>I am a graduate student focused on creating meaningful digital experiences through human-centered design. With an academic background in Computer Science and UX, I bridge technical expertise with a deep understanding of users (of
+                            course remembering that I am not the user).</p>
+                        <p>My approach blends user research, iterative design, prototyping, and front-end development to create interfaces that are both usable and enjoyable.</p>
                         <div class="skills">
                             <span class="skill-tag">User Research</span>
                             <span class="skill-tag">Prototyping</span>
@@ -57,20 +67,119 @@
                     </div>
                     <div class="about-visual">
                         <div class="about-visual-content">
-                            Design + Research + Code
+                            Design + Code + UX
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="projects" class="projects">
+        <section id="case-study" class="case-study">
             <div class="container">
-                <h2>Featured Projects</h2>
+
+                <!-- case study header -->
+                <header class="case-header">
+                    <h2>Veraith</h2>
+                    <p class="case-subtitle">
+                        A sustainable brand experience exploring how visual systems can build trust, recognition, and emotional connection in eco-conscious fashion.
+                    </p>
+
+                    <div class="case-meta">
+                        <span>Role: Brand Designer</span>
+                        <span>Project Type: Brand Design Project</span>
+                        <span>Tools: Figma, Illustrator, Photoshop</span>
+                    </div>
+                </header>
+
+                <!-- Intro -->
+                <section class="case-section">
+                    <h3>Project Overview</h3>
+                    <p>
+                        Veraith is a solo brand design project that grew out of my interest in sustainable fashion and how credibility is communicated online. I wanted to explore how a clear brand identity and thoughtful visual decisions could make sustainable shopping feel
+                        more trustworthy, approachable, and easy to navigate.
+                    </p>
+                    <p>
+                        Rather than designing an entire e-commerce platform, I focused on a single core task flow: selecting a product, adding it to the cart, and proceeding to checkout. This allowed me to go deeper into the visual system, hierarchy, and interaction decisions
+                        that support a confident purchasing experience.
+                    </p>
+                </section>
+
+                <!-- brand challenge -->
+                <section class="case-section">
+                    <h3>Brand Challenge</h3>
+                    <p>
+                        Many sustainable fashion platforms rely heavily on messaging to communicate their values, but often fall short in visual clarity and usability. As a result, users may feel uncertain about product quality, brand values, or where to focus their attention
+                        while shopping.
+                    </p>
+                </section>
+
+                <!-- strategy -->
+                <section class="case-section">
+                    <h3>Brand Strategy</h3>
+                    <p>
+                        My strategy focused on using consistency and visual hierarchy to reduce cognitive load and guide users through the experience with confidence. I made intentional choices around spacing, contrast, and tone to support recognition and reinforce Veraith's
+                        sustainability values without overwhelming the interface.
+                    </p>
+                </section>
+
+                <div class="case-placeholder">
+                    <img src="img/homepage.png" alt="Visual direction (moodboard)">
+                    <p class="placeholder-label">
+                        Visual direction exploration
+                    </p>
+                </div>
+
+                <!-- identity system -->
+                <section class="case-section">
+                    <h3>Identity System</h3>
+                    <p>
+                        The identity system uses a neutral, grounded colour palette paired with refined typography to communicate calm, quality, and transparency. Hierarchy and layout rules were designed to be flexible, allowing the system to scale across different screen sizes
+                        while maintaining a consistent brand feel.
+                    </p>
+                </section>
+                <div class="case-placeholder">
+                    <img src="img/mockups.png" alt="Veraith identity system applied across Mac, iPad, and mobile screens">
+                    <p class="placeholder-label">
+                        Identity system reflected across desktop, tablet, and mobile screens
+                    </p>
+                </div>
+
+                <!-- application -->
+                <section class="case-section">
+                    <h3>Application & Responsiveness</h3>
+                    <p>
+                        The system was applied across desktop, tablet, and mobile layouts, adapting components and spacing to each context while preserving visual consistency. This helped me think more critically about how brand systems behave in real-world, responsive environments.
+                    </p>
+                </section>
+
+                <div class="case-placeholder">
+                    <img src="img/mobile-wireframes.png" alt="Mobile wireframes designs">
+                    <p class="placeholder-label">
+                        Mobile-first purchase flow wireframes
+                    </p>
+                </div>
+
+                <section class="case-section">
+                    <h3>Scope & Focus</h3>
+                    <p>
+                        This project does not represent a fully built e-commerce platform. Instead, I intentionally focused on a single, high-impact task flow to explore how brand systems and interaction design work together at a critical decision point in the user journey.
+                    </p>
+                </section>
+
+                <!-- reflection -->
+                <section class="case-section">
+                    <h3>Reflection</h3>
+                    <p>
+                        This project strengthened my understanding of how branding extends beyond aesthetics into usability, perception, and trust. If I were to continue this work, I would explore applying the system to print to further test out its flexibility across physical
+                        and digital touchpoints.
+                    </p>
+                </section>
+
+                <!-- <h2>Featured Projects</h2>
                 <div class="project-grid">
                     <div class="project-card" data-figma-url="https://www.figma.com/proto/2r1hrgbXBjJ1IUpVNjtyoy/HCI-440-group-project-3---interaction-design?node-id=144-855&p=f&t=B65hLwPlAh7ON9Yx-1&scaling=scale-down&content-scaling=fixed&page-id=88%3A2621&starting-point-node-id=144%3A855">
                         <div class="project-image">
-                            <!-- meal prepping app -->
+                            
                             <img src="img/preppal2.jpeg" alt="PrepPal App">
                             <div class="tap-badge">Tap to interact</div>
                         </div>
@@ -89,7 +198,7 @@
 
                     <div class="project-card" data-figma-url="https://www.figma.com/proto/k0eLJjmSVJmGdylhLpwMgu/HCI-430--group-assignment-2?node-id=297-3845&p=f&t=awv5VZiJEmrGJkDt-1&scaling=scale-down&content-scaling=fixed&page-id=297%3A1685&starting-point-node-id=297%3A3845">
                         <div class="project-image">
-                            <!-- smartfridge app -->
+                            
                             <img src="img/smart_fridge 2.png" alt="SmartFridge App">
                             <div class="tap-badge">Tap to interact</div>
                         </div>
@@ -108,7 +217,7 @@
 
                     <div class="project-card" data-figma-url="https://www.figma.com/proto/PNWFqek1zKtnLXqot50zID/HCI-430--A2---A6?node-id=63-1655&starting-point-node-id=63%3A1655&t=25TeFytDK7yQA60o-1">
                         <div class="project-image">
-                            <!-- sustainable shopping platform -->
+                            
                             <img src="img/mockup_page.png" alt="Sustainable Shopping Platform">
                             <div class="tap-badge">Tap to interact</div>
                         </div>
@@ -126,7 +235,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
+
             </div>
         </section>
 
@@ -144,6 +254,10 @@
         </section>
 
     </div>
+
+    <footer class="site-credit">
+        <p>Designed & Built by <a href="https://github.com/vickykimani" target="_blank">Vicky Kimani</a></p>
+    </footer>
 
     <script src="script.js"></script>
 
