@@ -1,18 +1,20 @@
 # Portfolio
-A clean, minimalist portfolio website showcasing UI/UX design projects and prototypes.
+A thoughtfully designed portfolio website showcasing selected UX and interface design work, with an emphasis on clarity, systems thinking, and responsive execution. <br>
+
+This site was designed and built from scratch to explore how visual design, interaction patterns, and front-end implementation work together in a real portfolio context.
 
 ## Features
-- **Responsive Design** - Optimized for desktop, tablet, and mobile devices
-- **Interactive Prototypes** - Click/tap to view live Figma prototypes
-- **Touch-Friendly** - Bookmark-style interaction hints for mobile users
-- **Clean Design** - Minimalist design focusing on showcasing work
-- **Project Filtering** - Easy navigation through different project types
+- **Responsive Layout** - Optimized for desktop, tablet, and mobile viewports, including custom hamburger navigation for smaller screens.
+- **Case Study Structure** - Projects are presented as focused case studies, highlighting design intent, decision-making, and application rather than just final results.
+- **Design System Thinking** - Consistent typography, spacing, and hierarchy applied across sections to reflect brand and usability principles.
+- **Clean & Minimal Interface** - A visual style that keeps attention on content and work.
+- **Mobile Interaction Patterns** - Subtle transitions, refined buttons, and intentional hover states designed for both mouse and touch input.
 
 ## Technologies Used
-- HTML5
-- CSS3 (Flexbox, Grid, Media Queries)
-- Vanilla JavaScript
-- Figma (for prototypes)
+- HTML5 - semantic structure
+- CSS3 - Flexbox, Grid, media queries, responsive typography
+- Vanilla JavaScript - navigation and interactive behaviour
+- Figma - design exploration, wireframes, and mockup
 
 ### Project Structure
 ```
@@ -24,23 +26,14 @@ portfoliov2/
 ├── assets/             # project files
 └── README.md           # this file
 ```
-## Key Features
-### Interactive Project Cards
-- Hover effects on desktop reveal "click to interact with prototype" message
-- Touch devices show bookmark-style "tap to interact" badges
-- Direct links to live Figma prototypes
+## Design Focus
+- Visual hierarchy and readability
+- Responsive behaviour across breakpoints
+- Intentional spacing and layout decisions
+- Balancing aesthetics with usability
+- Translating design decisions into code
 
-### Responsive Interaction Design
-- Desktop: Hover states with cursor hints
-- Mobile: Always-visible bookmark badges
-- Seamless experience across all devices
-
-### Project Showcase
-Featured projects include:
-- Project description and context
-- Key skills and methodologies used
-- Interactive prototype access
-- Team collaboration indicators where applicable
+*This portfolio is not a template or theme, it is an evolving personal project used to experiment, refine, and apply UX and front-end concepts.*
 
 ## Browser Support
 - Chrome (latest)
@@ -48,21 +41,21 @@ Featured projects include:
 - Safari (latest)
 - Edge (latest)
 
-## Performance
+## Performance & Implementation
+- Lightweight, dependency-free build
 - Optimized images for web
 - Minimal JavaScript footprint
-- CSS animations for smooth interactions
-- No external dependencies
+- CSS-driven animations and transitions
 
 ## Contact
 For questions or collaboration opportunities, please reach out via:
 - Email: [victorianightingale70@gmail.com](mailto:victorianightingale70@gmail.com)
 - LinkedIn: [Vicky Kimani](https://www.linkedin.com/in/vicky-kimani-171202207/)
-- Portfolio: [Portfolio Link](https://studentweb.cdm.depaul.edu/vkimani/)
+- Portfolio *(this site)*: [Portfolio Link](https://vickykimani.github.io/portfoliov2/)
 <br>
 <br>
 <div align="center">
- <sup>&copy; 2025 Vicky Kimani. All Rights Reserved.</sup> <br>
+ <sup>&copy; 2026 Vicky Kimani. All Rights Reserved.</sup> <br>
 
   <sup>This portfolio and its contents are proprietary. Unauthorized copying, distribution, or use of this design, code, or content is prohibited.</sup> <br>
 
