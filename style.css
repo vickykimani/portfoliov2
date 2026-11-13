@@ -12,7 +12,94 @@ body {
 .coming-soon-page {
     position: relative;
     overflow: hidden;
+    background-image: url(assets/background_img/portfolio\ background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.brand-section {
+    padding-left: 19.5%;
+}
+
+.name-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.brand-name {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(4rem, 7vw, 7rem);
+    font-size: 400;
+    line-height: 0.76;
+    letter-spacing: -0.065em;
+}
+
+.brand-name span {
+    display: block;
+}
+
+.brand-name .surname {
+    color: #D5C298;
+    margin-left: 0.48em;
+}
+
+.brand-dot {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #D5C298;
+    top: 40%;
+    right: -30px;
+}
+
+.announcement-section {
+    padding-left: 1.5%;
+    padding-right: 10%;
+}
+
+.announcement-text {
+    font-family: 'Playfair Display', serif;
+    max-width: 570px;
+    font-size: clamp(1rem, 1.8vw, 1.6rem);
+    font-weight: 400;
+    line-height: 1.28;
+    margin-bottom: 0;
+    color: #E8E0CF;
+}
+
+.announcement-text a {
+    color: #D5C298;
+    font-style: italic;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.announcement-text a:hover {
+    opacity: 0.65;
+}
+
+@media (max-width: 767px) {
+    .coming-soon-page {
+        padding: 0 8%;
+    }
+    .coming-soon-page .row {
+        align-content: center;
+        gap: 3rem;
+    }
+    .brand-section {
+        padding-left: 0;
+    }
+    .brand-name {
+        font-size: clamp(4.5rem, 16vw, 6rem);
+    }
+    .announcement-text {
+        font-size: 1.2rem;
+        max-width: 100%;
+    }
+    .coming-soon-page::before,
+    .coming-soon-page::after {
+        display: none;
+    }
 }
