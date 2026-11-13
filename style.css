@@ -44,7 +44,8 @@ body {
     margin-left: 0.48em;
 }
 
-.brand-dot {
+
+/* .brand-dot {
     position: absolute;
     width: 11px;
     height: 11px;
@@ -52,7 +53,7 @@ body {
     background-color: #D5C298;
     top: 40%;
     right: -30px;
-}
+} */
 
 .announcement-section {
     padding-left: 1.5%;
