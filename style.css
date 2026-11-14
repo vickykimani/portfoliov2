@@ -19,7 +19,8 @@ body {
 }
 
 .brand-section {
-    padding-left: 19.5%;
+    padding-left: 10%;
+    padding-right: 3%;
 }
 
 .name-wrapper {
@@ -29,10 +30,12 @@ body {
 
 .brand-name {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(4rem, 7vw, 7rem);
-    font-size: 400;
-    line-height: 0.76;
-    letter-spacing: -0.065em;
+    font-size: 57.33px;
+    font-weight: 500;
+    line-height: 0.95;
+    letter-spacing: 0.006em;
+    margin: 0;
+    color: #E8E0CF;
 }
 
 .brand-name span {
@@ -62,11 +65,12 @@ body {
 
 .announcement-text {
     font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.006em;
     max-width: 570px;
-    font-size: clamp(1rem, 1.8vw, 1.6rem);
-    font-weight: 400;
-    line-height: 1.28;
-    margin-bottom: 0;
+    margin: 0;
     color: #E8E0CF;
 }
 
@@ -81,26 +85,51 @@ body {
     opacity: 0.65;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .coming-soon-page {
-        padding: 0 8%;
+        padding: 0 clamp(32px, 7vw, 80px);
     }
     .coming-soon-page .row {
         align-content: center;
-        gap: 3rem;
+        row-gap: 3rem;
     }
+    /* Name */
     .brand-section {
         padding-left: 0;
+        padding-right: 0;
     }
     .brand-name {
-        font-size: clamp(4.5rem, 16vw, 6rem);
+        font-size: clamp(44px, 6vw, 57px);
+    }
+    /* Announcement */
+    .announcement-section {
+        padding-left: 0;
+        padding-right: 0;
     }
     .announcement-text {
-        font-size: 1.2rem;
-        max-width: 100%;
+        font-size: 16px;
+        max-width: 480px;
     }
-    .coming-soon-page::before,
-    .coming-soon-page::after {
-        display: none;
+}
+
+
+/* mobile screens below 576px */
+
+@media (max-width: 575px) {
+    .coming-soon-page {
+        padding: 0 28px;
+    }
+    .coming-soon-page .row {
+        row-gap: 2.5rem;
+    }
+    /* Name */
+    .brand-name {
+        font-size: clamp(42px, 11vw, 50px);
+    }
+    /* Announcement */
+    .announcement-text {
+        font-size: 15px;
+        line-height: 1.6;
+        max-width: 100%;
     }
 }
